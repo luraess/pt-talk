@@ -31,14 +31,42 @@ md"""
 - 1D problems
 """
 
+#src #########################################################################
+#nb # %% A slide [markdown] {"slideshow": {"slide_type": "slide"}}
+md"""
+## Why to solve PDEs on GPUs (using Julia)?
+
+"""
+
+#src #########################################################################
+#nb # %% A slide [markdown] {"slideshow": {"slide_type": "fragment"}}
+md"""
+![julia-gpu](./figures/julia-gpu.png)
+"""
+
+#src #########################################################################
+#nb # %% A slide [markdown] {"slideshow": {"slide_type": "slide"}}
+md"""
+#### GPUs are cool
+Price vs Performance -> Close to **1.5TB/s** memory throughput (nonlinear diffusion) that one can achieve 🚀
+
+![perf_gpu](./figures/perf_gpu.png)
+"""
+
+#src #########################################################################
+#nb # %% A slide [markdown] {"slideshow": {"slide_type": "slide"}}
+md"""
+#### Julia is cool
+Solution to the "two-language barrier" -> a single code for prototyping and production
+
+![two_lang](./figures/two_lang.png)
+"""
+
 #src ######################################################################### 
 #nb # %% A slide [markdown] {"slideshow": {"slide_type": "slide"}}
 md"""
 A **partial differential equation (PDE)** is an equation which imposes relations between the various partial derivatives of a multivariable function. [_Wikipedia_](https://en.wikipedia.org/wiki/Partial_differential_equation)
 """
-
-#src One slide on PDEs on GPUS
-
 
 #src #########################################################################
 #nb # %% A slide [markdown] {"slideshow": {"slide_type": "slide"}}
