@@ -1,0 +1,4 @@
+.DS_Store
+Manifest.toml
+scripts/steady*
+slides/.ipynb_checkpoints
