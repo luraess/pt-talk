@@ -9,6 +9,7 @@ md"""
 
 #### Ludovic Räss, _Ivan Utkin_
 
+
 ![ethz](./figures/ethz.png)
 """
 
@@ -42,6 +43,8 @@ md"""
 #nb # %% A slide [markdown] {"slideshow": {"slide_type": "fragment"}}
 md"""
 ![julia-gpu](./figures/julia-gpu.png)
+
+The "long" answer: PDE on GPU course at ETHZ https://pde-on-gpu.vaw.ethz.ch
 """
 
 #src #########################################################################
